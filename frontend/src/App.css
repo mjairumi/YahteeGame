@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.box {
+  display: inline;
+  height: 100px;
+  width: 100px;
+  border: 5px solid black;
+  margin: 20px;
+}
+.num-box{
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: space-between;
+
+}
+.int-center {
+  padding: 50%;
+}
+
+.font-big{
+  font-size: 60px;
+}
+
+.hidden{
+  display: none;
+}
+
+.mrg-bt{
+  margin-bottom: 20px;
+}
+
+.flex-dis{
+  display: flex;
+  justify-content: space-evenly;
+}

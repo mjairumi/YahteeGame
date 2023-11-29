@@ -21,11 +21,11 @@ const LandingPage = () => {
       <div className="row row-block">
         <div className="col-xs-2 col-md-2"></div>
         <div className="col-xs-4 col-md-4">
-          <button>Play Yahtzee</button>
+          <button className="btn btn-secondary">Play Yahtzee</button>
         </div>
 
         <div className="col-xs-4 col-md-4">
-          <button onClick={handleShowLeaderboard}>Leaderboard</button>
+          <button className="btn btn-secondary" onClick={handleShowLeaderboard}>Leaderboard</button>
         </div>
         <div className="col-xs-2 col-md-2"></div>
       </div>
